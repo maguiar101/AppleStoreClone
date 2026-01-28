@@ -1,0 +1,75 @@
+.mainPhone{
+    text-align: center;
+    background-color: hsl(0, 0%, 95%);
+    margin: 0.7rem auto;
+    padding-top: 3.8rem;
+    overflow: hidden;
+}
+
+.mainPhone .mainTitle{
+    margin: 0 auto;
+    font-family: 'Inter', sans-serif;
+    font-weight: 550;
+    color: #000000;
+    font-size: 3.4rem;
+    
+}
+
+.mainPhone .mainText{
+    font-family: 'Inter', sans-serif;
+    font-weight: 350;
+    color: #000000;
+    font-size: 1.7rem;
+    margin: 0 auto;
+    letter-spacing: 1px;
+}
+.mainPhone .buttons{
+    margin-top: 1rem;
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+}
+.mainPhone .learnMore, .mainPhone .shopIphone{
+    border: 1px solid hsl(213, 100%, 45%);
+    border-radius: 2rem;
+    height: 2.8rem;
+    width: 8.2rem;
+    font-family: 'Inter', sans-serif;
+    font-weight: 300;
+    font-size: 1rem;
+    color: hsl(213, 100%, 45%);
+}
+
+.mainPhone .learnMore{
+    background-color: hsl(213, 100%, 45%);
+    color: #ffffff;
+    
+}
+.mainPhone .learnMore:hover{
+    background-color: hsl(213, 100%, 47%);
+    cursor: pointer;
+    
+}
+.mainPhone .shopIphone:hover{
+    background-color: hsl(213, 100%, 47%);
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.mainPhone .appleText{
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    color: transparent;
+    background: linear-gradient(to right, rgb(0, 98, 255), rgb(255, 0, 0));
+    background-clip: text;
+    font-size: 1.2rem;
+    margin-top: 1.8rem;
+}
+
+.mainPhone .phoneImage{
+    margin-top: 1rem;
+    width: 40rem;
+    height: 100%;
+    margin-bottom: -3px;
+}

@@ -1,0 +1,71 @@
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background: hsla(0, 0%, 100%, 0.8);
+    backdrop-filter: blur(10px);
+    padding: 0.8rem;
+    text-align: center;
+    color: hsl(0, 0%, 50%);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.header .headerLinks{
+    display: grid;
+    grid-template-columns: repeat(14, 1fr);
+    gap: 10px;
+    list-style: none;
+    justify-items: center;
+    align-items: center;
+    font-size: 0.7rem;
+    font-weight: 350;
+    font-family: 'Inter', sans-serif;
+    margin: 0 auto;
+}
+
+.header .headerLinks li a{
+    text-decoration: none;
+    color: hsl(0, 0%, 22%);
+}
+.header .headerLinks li a:active{
+    text-decoration: none;
+    color: red;
+}
+
+.header .appleLogo{
+    height: 1.1rem;
+    width: auto;
+    left: 4rem;
+}
+.header .searchIcon{
+    height: 1.1rem;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header .bagIcon{
+    height: 1.1rem;
+    width: auto;
+    display: flex;
+    margin-right: 3rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.header .hoverLinks{
+    display: none;
+    position: absolute;
+    top: 2.5rem;
+    left: 0;
+    right: 0;
+    background-color: white;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}

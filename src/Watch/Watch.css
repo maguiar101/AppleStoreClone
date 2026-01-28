@@ -1,0 +1,90 @@
+.mainWatch{
+    text-align: center;
+    margin: 0.7rem auto;
+    padding-top: 2rem;
+    background-color: hsl(0, 0%, 95%);
+    overflow: hidden;
+}
+
+.mainWatch .mainTitle{
+    margin: 0 auto;
+    padding-top: 4rem;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    color: #000000;
+    font-size: 2.8rem;
+    letter-spacing: 2px;
+    
+}
+.mainWatch .subTitle{
+    margin: 0 auto;
+    margin-bottom: 0.6rem;
+    margin-left: 1rem;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    color: #000000;
+    font-size: 1.2rem;
+    letter-spacing: 2px;
+    
+    
+}
+
+.mainWatch .mainText{
+    font-family: 'Inter', sans-serif;
+    font-weight: 350;
+    color: #000000;
+    font-size: 1.6rem;
+    margin: 0 auto;
+    letter-spacing: 1px;
+}
+.mainWatch .buttons{
+    margin-top: 1rem;
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.mainWatch .learnMore{
+    border: 1px solid hsl(213, 100%, 45%);
+    border-radius: 2rem;
+    height: 2.8rem;
+    width: 8.2rem;
+    font-family: 'Inter', sans-serif;
+    font-weight: 300;
+    font-size: 1rem;
+    background-color: hsl(213, 100%, 45%);
+    color: #ffffff;
+}
+
+.mainWatch .buy{
+    border: 1px solid hsl(213, 100%, 45%);
+    border-radius: 2rem;
+    height: 2.8rem;
+    width: 4.7rem;
+    font-family: 'Inter', sans-serif;
+    font-weight: 300;
+    font-size: 1rem;
+    color: hsl(213, 100%, 45%);
+    background: transparent;
+}
+
+.mainWatch .learnMore:hover{
+    background-color: hsl(213, 100%, 47%);
+    cursor: pointer;
+    
+}
+.mainWatch .buy:hover{
+    background-color: hsl(213, 100%, 47%);
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.mainWatch .watchImage{
+    margin-top: 3rem;
+    width: 70rem;
+    height: 25rem;
+    margin-bottom: -3px;
+
+    
+}

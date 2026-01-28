@@ -1,0 +1,78 @@
+.mainMacbook{
+    background: linear-gradient(to bottom,hsla(197, 58%, 69%, 0.35), hsl(0, 0%, 95%));
+    margin: 0.7rem auto;
+    text-align: center;
+}
+.mainMacbook .mainTitle{
+    padding-top: 3rem;
+    margin: 0 auto;
+    font-family: 'Inter', sans-serif;
+    font-weight: 550;
+    color: #000000;
+    font-size: 3.4rem;
+}
+
+.mainMacbook .mainText{
+    font-family: 'Inter', sans-serif;
+    font-weight: 350;
+    color: #000000;
+    font-size: 1.7rem;
+    margin: 0 auto;
+}
+
+.mainMacbook .buttons{
+    margin-top: 1rem;
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+}
+.mainMacbook .learnMore{
+    border: 1px solid hsl(213, 100%, 45%);
+    border-radius: 2rem;
+    height: 2.8rem;
+    width: 8.2rem;
+    font-family: 'Inter', sans-serif;
+    font-weight: 300;
+    font-size: 1rem;
+    background-color: hsl(213, 100%, 45%);
+    color: #ffffff;
+}
+.mainMacbook .buy{
+    border: 1px solid hsl(213, 100%, 45%);
+    border-radius: 2rem;
+    height: 2.8rem;
+    width: 4.7rem;
+    font-family: 'Inter', sans-serif;
+    font-weight: 300;
+    font-size: 1rem;
+    color: hsl(213, 100%, 45%);
+    background: transparent;
+}
+
+.mainMacbook .learnMore:hover{
+    background-color: hsl(213, 100%, 47%);
+    cursor: pointer;
+    
+}
+.mainMacbook .buy:hover{
+    background-color: hsl(213, 100%, 47%);
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.mainMacbook .appleText{
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    color: transparent;
+    background: linear-gradient(to right, rgb(0, 98, 255), rgb(255, 0, 0));
+    background-clip: text;
+    font-size: 1.2rem;
+    padding-top: 1rem;
+    padding-bottom: 3rem;
+}
+.mainMacbook .macbookImage{
+    margin-top: 1.5rem;
+    width: 38rem;
+    height: 100%;
+}
